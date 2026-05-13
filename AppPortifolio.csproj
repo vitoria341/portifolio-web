@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\NovaPasta1\**" />
+    <Compile Remove="Components\NovaPasta\**" />
+    <Content Remove="Components\NovaPasta1\**" />
+    <Content Remove="Components\NovaPasta\**" />
+    <EmbeddedResource Remove="Components\NovaPasta1\**" />
+    <EmbeddedResource Remove="Components\NovaPasta\**" />
+    <None Remove="Components\NovaPasta1\**" />
+    <None Remove="Components\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\Historia.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_GlobalJsonStartingDir Remove="Components\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_GlobalJsonStartingDir Remove="Components\NovaPasta1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Components\Pages\Meucurriculo.razor" />
+  </ItemGroup>
+
+</Project>
