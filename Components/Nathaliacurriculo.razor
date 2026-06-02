@@ -1,0 +1,107 @@
+﻿@page "/Nathaliacurriculo"
+
+
+
+<title>Meu Portfólio</title>
+
+
+<style>
+    .curriculo {
+        padding: 80px 20px;
+        background: #7d55e2;
+        text-align: center;
+    }
+
+        .curriculo h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #111827;
+        }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        gap: 25px;
+        max-width: 1000px;
+        margin: auto;
+        text-align: left;
+    }
+
+    .card {
+        background: #cfbffe;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+        .card h3 {
+            text-align: center;
+        }
+
+        .card p {
+            text-align: left;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 20px;
+            color: #2563eb;
+        }
+
+        .card li {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+</style>
+
+<section class="curriculo">
+
+    <h2>Meu currículo</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Competências</h3>
+
+            <ul>
+                <li>HTML, CSS e JavaScript</li>
+                <li>Lógica de Programação</li>
+                <li>C#</li>
+                <li>Redes de Computadores</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Experiências</h3>
+
+            <ul>
+                <li>Projetos acadêmicos</li>
+                <li>Criação de páginas web</li>
+                <li>Instalação e Manutenção de Computadores</li>
+                <li>Análise e Desenvolvimento de Sistemas</li>
+
+
+
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Resultados</h3>
+            <ul>
+                <li>Aprendizado contínuo</li>
+                <li>Boas Práticas de codificação</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
